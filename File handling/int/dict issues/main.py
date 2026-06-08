@@ -22,4 +22,5 @@ with open('samplea.txt','w') as f:
 with open('File handling\int\dict issues\samplea.txt','r') as f:
     s=f.read()
     print(s)
+    print(s['name'])
 
